@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rootblock_default_bg" >
+
+    <RelativeLayout
+        android:id="@+id/header_secure"
+        android:layout_width="fill_parent"
+        android:layout_height="42.0dip"
+        android:background="@drawable/metro_title_bg_light_long" >
+
+        <ImageButton
+            android:id="@+id/button_secure_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_button_back" />
+
+      <!--    <View
+            android:id="@+id/seperateline_homecontrol"
+            android:layout_width="3.0px"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/button_homecontrol_back"
+            android:background="#ffe4a438" />  -->
+
+        <TextView
+            android:id="@+id/text_secure_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="监控视频"
+            android:textColor="#FF7F24"
+            android:textSize="20.0sp" />
+
+        <ImageButton
+            android:id="@+id/button_secure_logout"
+            android:layout_width="37.0dip"
+            android:layout_height="37.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3.0dip"
+            android:background="@drawable/button_button_exit" />
+        
+    </RelativeLayout>
+    <TextView 
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+		android:background="#FF7F24"
+		android:layout_below="@id/header_secure"
+        />
+    <ViewFlipper
+        android:id="@+id/secure_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_secure"
+         />
+
+   <GridView
+        android:id="@+id/secure_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:paddingTop="5dip" 
+        android:background="#60000000"/>
+
+</RelativeLayout>

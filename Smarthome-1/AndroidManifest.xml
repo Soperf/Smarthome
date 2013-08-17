@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soper.smarthome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/smarthomeicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        <!-- ************启动界面**********************-->
+        <activity android:name="com.soper.smarthome.home.StartActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- ************主界面**********************-->
+        <activity android:name="com.soper.smarthome.home.HomeActivity"> </activity>
+        
+        <!-- ************登录界面**********************-->
+        <activity android:name="com.soper.smarthome.login.LoginActivity"></activity>
+        
+        <!-- ************主界面 **********************-->
+        <activity android:name=".maininterface.MaininterfaceActivity"></activity>
+        
+        <!-- ************注册界面 **********************-->
+        <activity android:name="com.soper.smarthome.register.RegisterActivity"></activity>
+        
+        <!-- ************家庭控制系统 **********************-->
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.HomecontrolsAvtivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.EnvironmentalChoiceActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.Light"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.CurtainActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.ApplianceActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.TvActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.AirActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.CookerActivity"></activity>
+        <activity android:name="com.soper.smarthonme.homecontrolsystem.AudioAvtivity"></activity>
+        
+        <!-- ************家庭安防系统 **********************-->
+        <activity android:name="com.soper.smarthome.secure.SecureActivity"></activity>
+        <activity android:name="com.soper.smarthome.secure.VideoActivity"></activity>
+        <activity android:name="com.soper.smarthome.secure.FireActivity"></activity>
+        <activity android:name="com.soper.smarthome.secure.StealActivity"></activity>
+        <activity android:name="com.soper.smarthome.secure.GasActivity"></activity>
+        <activity android:name="com.soper.smarthome.secure.SosActivity"></activity>
+        
+        <!-- ************电能优化系统 **********************-->
+        <activity android:name="com.soper.smarthome.energy.EnergyActivity" ></activity>
+        <activity android:name="com.soper.smarthome.energy.SoceketActivity"></activity>
+        <activity android:name="com.soper.smarthome.energy.DetectionActivity"></activity>
+        <activity android:name="com.soper.smarthome.energy.ElectricActivity" ></activity>
+        <activity android:name="com.soper.smarthome.energy.ElectrovalenceActivity"></activity>
+        
+        
+        <!-- ************云服务系统 **********************-->
+        <activity android:name="com.soper.smarthome.cloud.CloudActivity"></activity>
+        
+        <!-- ************婴幼儿保护系统系统 **********************-->
+        <activity android:name="com.soper.smarthome.baby.BabyActivity"></activity>
+        <activity android:name="com.soper.smarthome.baby.BabyPActivity"></activity>
+        <activity android:name="com.soper.smarthome.baby.ChildActivity"></activity>
+        
+        <!-- ************老年人急救系统**********************-->
+        <activity android:name="com.soper.smarthome.old.OldActivity"></activity>
+        
+    </application>
+
+</manifest>

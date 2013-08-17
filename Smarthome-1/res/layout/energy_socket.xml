@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="请点击各条目设置相应电器名称" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_inner_ss"
+        android:orientation="vertical" >
+        
+        
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="1号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="2号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="3号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="4号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="5号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="6号"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:background="@null"
+		        android:hint="点击输入电器名称"
+		        />
+		    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_toggle_selector"
+            android:textOff=""
+            android:textOn="" 
+            android:layout_marginLeft="10dp" />
+		</LinearLayout>
+		<TextView 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_margin="5dp"
+		    android:background="#000"/>
+		
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dp">
+		    <TextView 
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="电器用电量"/>
+		    <EditText 
+		        android:layout_height="wrap_content"
+		        android:layout_width="170dp"
+		        android:layout_marginLeft="10dp"
+		        android:editable="false"
+		        />
+		 
+		</LinearLayout>
+		 
+		
+		
+       
+    </LinearLayout>
+
+</RelativeLayout>
